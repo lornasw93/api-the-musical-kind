@@ -4,12 +4,14 @@
 ## Project Setup
 
 ### Backend
-* Tech stack: NET Core 3.1, Swagger, REST API Hosting: Azure (App Service, CI/CD)
+* Tech stack: NET Core 3.1, Swagger, REST API 
+	* Hosting: Azure (App Service, CI/CD)
 * URL: [https://api-the-musical-kind-backend.azurewebsites.net/](https://api-the-musical-kind-backend.azurewebsites.net/)
 * Repo: [https://github.com/lornasw93/api-the-musical-kind.backend](https://github.com/lornasw93/api-the-musical-kind.backend)
 
 ### Frontend
-* Tech stack: Angular 9, Bootstrap Hosting: Firebase
+* Tech stack: Angular 9, Bootstrap 
+	* Hosting: Firebase
 * URL: [https://api-the-musical-kind.lorna.dev](https://api-the-musical-kind.lorna.dev/)
 * Repo: [https://github.com/lornasw93/api-the-musical-kind.frontend](https://github.com/lornasw93/api-the-musical-kind.frontend)
 

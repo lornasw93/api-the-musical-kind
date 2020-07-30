@@ -73,7 +73,8 @@ I **really** enjoyed working on tech test and spent any time I could on it. It's
 	* Lazy loading images
 	* Compress images
 	* Added meta tags
-
+	* Async methods
+* To investigate when sometimes the lyrics count 0 when it shouldn't be 🐞
 
 ### However, I have... ✅
 * Developed 2 separate projects (BE, FE) using different tech stacks including hosting
@@ -85,6 +86,6 @@ I **really** enjoyed working on tech test and spent any time I could on it. It's
 * Responsive
 * SPA
 * Combining 2 existing APIs (Shazam, Lyrics OVH)
-* Inserted some Lorna personality (I've seen Matrix 1)
+* Inserted some Lorna personality (I've seen Matrix 1) 
 
 ***Thank you for your time and for checking this out.*** 😀

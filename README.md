@@ -22,10 +22,10 @@
 To ensure smooth running, both BE and FE projects must be running.
 
 ### FE
-
+```
 npm install
 ng serve --o
-
+```
 ### BE
 
 Rebuild nuget packages

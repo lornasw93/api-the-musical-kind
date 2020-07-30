@@ -1,3 +1,4 @@
+
 # Presenting... API, the Musical Kind 🎵
 
 ## Project Setup
@@ -20,10 +21,43 @@
 If you are wanting to run locally, please ensure both BE and FE projects are running simultaneously. Or check out the live FE URL above.
 
 ### Frontend
-Run `npm install` in the `ClientApp` directory and once finished `ng serve --o` it.
+Run `npm install` in the *ClientApp* directory and once finished `ng serve --o` it.
 
 ### Backend
-Restore Nuget packages, build and run it.
+#### Prerequisites 
+
+You'll need to setup an account to use the Shazam API [here](https://rapidapi.com/apidojo/api/shazam) and get an API key. My *appsettings.json* file looks like this (with the API key and irreverent bits omitted):
+```
+{
+  "ShazamApi": {
+    "Key": "############################################"
+  } 
+}
+```
+I'm using this particular API to do a general search. The method in my service class to use it looks like this (again, irrelevant bits omitted):
+```
+public Search Get(string resourceUrl)
+{
+	const string baseUrl = "https://shazam.p.rapidapi.com/";
+    const string host = "shazam.p.rapidapi.com";
+    var key = _config["ShazamApi:Key"];
+
+    var baseAddress = new Uri(baseUrl);
+
+    using var httpClient = new HttpClient { BaseAddress = baseAddress };
+
+    httpClient.DefaultRequestHeaders.Add("X-RapidAPI-Host", host);
+    httpClient.DefaultRequestHeaders.Add("X-RapidAPI-Key", key);
+
+    using var response = httpClient.GetAsync("search?locale=en-GB&offset=0&limit=5&term=" + resourceUrl);
+
+    var responseData = response.Result.Content.ReadAsStringAsync();
+    var result = JsonConvert.DeserializeObject<Search>(responseData.Result);
+ 
+    return result;
+}
+```
+Once you've setup your account and copied over the API key, restore Nuget packages, build and run the project.  
  
 ## Overview 
 I **really** enjoyed working on tech test and spent any time I could on it. It's an expandable project and for my self-development I will absolutely continue to work on it and implement the above list. 🏃‍♀️

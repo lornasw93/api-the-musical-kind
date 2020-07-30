@@ -75,7 +75,7 @@ I **really** enjoyed working on tech test and spent any time I could on it. It's
 	* Lazy loading images
 	* Compress images
 	* Added meta tags
-	* Async methods
+	* Async methods (FE)
 * To investigate when sometimes the lyrics count 0 when it shouldn't be 🐞
 
 ### However, I have... ✅

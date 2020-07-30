@@ -5,7 +5,7 @@
 
 ### Backend
 * Tech stack: NET Core 3.1, Swagger, REST API Hosting: Azure (App Service, CI/CD)
-* URL: [https://api-the-musical-kind.backend.lorna.dev](https://api-the-musical-kind.backend.lorna.dev/)
+* URL: [https://api-the-musical-kind-backend.azurewebsites.net/](https://api-the-musical-kind-backend.azurewebsites.net/)
 * Repo: [https://github.com/lornasw93/api-the-musical-kind.backend](https://github.com/lornasw93/api-the-musical-kind.backend)
 
 ### Frontend
@@ -78,7 +78,7 @@ I **really** enjoyed working on tech test and spent any time I could on it. It's
 
 ### However, I have... ✅
 * Developed 2 separate projects (BE, FE) using different tech stacks including hosting
-* Created new sub-domains to use
+* Created new sub-domain to use
 * FE is from scratch, no template
 * BE is minimal
 * Tested APIs using Postman and Swagger

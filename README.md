@@ -38,7 +38,7 @@ I'm using this particular API to do a general search. The method in my service c
 ```
 public Search Get(string resourceUrl)
 {
-	const string baseUrl = "https://shazam.p.rapidapi.com/";
+    const string baseUrl = "https://shazam.p.rapidapi.com/";
     const string host = "shazam.p.rapidapi.com";
     var key = _config["ShazamApi:Key"];
 

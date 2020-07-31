@@ -4,18 +4,18 @@
 
 
 ## If I had more time I would have... ⏳
-*No particular order*
-* Generated charts
+*No particular order, **bold = priority***
+* **Generated charts**
 * Added authentication - Identity Server maybe
-* Added testing (unit, Jasmine)
+* **Added testing (unit, Jasmine)**
 * UI / UX more focus
-* Better error handling
-* Where no results to display a message
+* **Better error handling**
+* **Where no results to display a message**
 * Improved page speeds/SEO
 	* Lazy loading images
 	* Compress images
 	* Added meta tags
-	* Async methods
+	* **Async methods**
 * To investigate when sometimes the lyrics count 0 when it shouldn't be 🐞
 
 ## However, I have... ✅

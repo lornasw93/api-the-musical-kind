@@ -38,7 +38,7 @@ You'll need to setup an account to use the Shazam API [here](https://rapidapi.co
 ```
 I'm using this particular API to do a general search. The method in my service class to use it looks like this (again, irrelevant bits omitted):
 ```
-public Search Get(string resourceUrl)
+public async Task<Search> Get(string resourceUrl)
 {
     const string baseUrl = "https://shazam.p.rapidapi.com/";
     const string host = "shazam.p.rapidapi.com";
@@ -53,7 +53,7 @@ public Search Get(string resourceUrl)
 
     using var response = httpClient.GetAsync("search?locale=en-GB&offset=0&limit=5&term=" + resourceUrl);
 
-    var responseData = response.Result.Content.ReadAsStringAsync();
+    var responseData = await response.Result.Content.ReadAsStringAsync();
     var result = JsonConvert.DeserializeObject<Search>(responseData.Result);
  
     return result;

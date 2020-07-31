@@ -35,6 +35,7 @@
 * Tech stack: NET Core 3.1, Swagger, REST API 
 	* Hosting: Azure (App Service, CI/CD)
 * URL: [https://api-the-musical-kind-backend.azurewebsites.net/](https://api-the-musical-kind-backend.azurewebsites.net/)
+* Swagger URL: [https://api-the-musical-kind-backend.azurewebsites.net/swagger](https://api-the-musical-kind-backend.azurewebsites.net/swagger)
 * Repo: [https://github.com/lornasw93/api-the-musical-kind.backend](https://github.com/lornasw93/api-the-musical-kind.backend)
 
 ### Frontend

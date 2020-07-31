@@ -12,6 +12,7 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 ## If I had more time I would have... ⏳
 *No particular order, **bold = priority***
 * **Generated charts**
+* Comparison data
 * Added authentication - Identity Server maybe
 * **Added testing (unit, Jasmine)**
 * UI / UX more focus

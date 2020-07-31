@@ -25,6 +25,7 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 	* Added meta tags
 	* **Async methods**
 * To investigate when sometimes the lyrics count 0 when it shouldn't be 🐞
+* Obvious loading when getting data from BE i.e. spinner
 
 ## However, I have... ✅
 *No particular order*

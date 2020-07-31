@@ -1,6 +1,34 @@
 
 # Presenting... API, the Musical Kind 🎵
 
+## If I had more time I would have... ⏳
+*No particular order*
+* Generated charts
+* Added authentication - Identity Server maybe
+* Added testing (unit, Jasmine)
+* UI / UX more focus
+* Better error handling
+* Where no results to display a message
+* Improved page speeds/SEO
+	* Lazy loading images
+	* Compress images
+	* Added meta tags
+	* Async methods
+* To investigate when sometimes the lyrics count 0 when it shouldn't be 🐞
+
+## However, I have... ✅
+*No particular order*
+* Developed 2 separate projects (BE, FE) using different tech stacks including hosting
+* Created new sub-domain to use
+* FE is from scratch, no template
+* BE is minimal
+* Tested APIs using Postman and Swagger
+* Clear and 'pretty' design
+* Responsive
+* SPA
+* Combining 2 existing APIs (Shazam, Lyrics OVH)
+* Inserted some Lorna personality (I've seen Matrix 1) 
+ 
 ## Project Setup
 
 ### Backend
@@ -63,31 +91,5 @@ Once you've setup your account and copied over the API key, restore Nuget packag
  
 ## Overview 
 I **really** enjoyed working on tech test and spent any time I could on it. It's an expandable project and for my self-development I will absolutely continue to work on it and implement the above list. 🏃‍♀️
-
-### If I had more time I would have... ⏳
-* Generating charts (if only!!)
-* Added authentication - Identity Server maybe
-* Added testing (unit, Jasmine)
-* UI / UX more focus
-* Better error handling
-* Where no results to display a message
-* Improved page speeds/SEO
-	* Lazy loading images
-	* Compress images
-	* Added meta tags
-	* Async methods (FE)
-* To investigate when sometimes the lyrics count 0 when it shouldn't be 🐞
-
-### However, I have... ✅
-* Developed 2 separate projects (BE, FE) using different tech stacks including hosting
-* Created new sub-domain to use
-* FE is from scratch, no template
-* BE is minimal
-* Tested APIs using Postman and Swagger
-* Clear and 'pretty' design
-* Responsive
-* SPA
-* Combining 2 existing APIs (Shazam, Lyrics OVH)
-* Inserted some Lorna personality (I've seen Matrix 1) 
 
 ***Thank you for your time and for checking this out.*** 😀

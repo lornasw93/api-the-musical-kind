@@ -1,5 +1,7 @@
 
+
 # Presenting... API, the Musical Kind 🎵
+
 
 ## If I had more time I would have... ⏳
 *No particular order*
@@ -28,6 +30,9 @@
 * SPA
 * Combining 2 existing APIs (Shazam, Lyrics OVH)
 * Inserted some Lorna personality (I've seen Matrix 1) 
+  
+    ![](https://github.com/lornasw93/api-the-musicial-kind/blob/master/frontend.gif)
+
  
 ## Project Setup
 

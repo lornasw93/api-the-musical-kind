@@ -1,4 +1,5 @@
 
+
 # Presenting... API, the Musical Kind 🎵
 
 ## Overview 
@@ -18,14 +19,12 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 * Added authentication - Identity Server maybe
 * **Added testing (unit, Jasmine)**
 * UI / UX more focus
-* **Better error handling**
-* **Where no results to display a message**
+* **Better error handling** 
 * Improved page speeds/SEO
 	* Lazy loading images
 	* Compress images
 	* Added meta tags
-* To investigate when sometimes the lyrics count 0 when it shouldn't be 🐞
-* Visual loading spinner for when getting data
+* To investigate when sometimes the lyrics count 0 when it shouldn't be 🐞 
 
 ## However, I have... ✅
 *No particular order*
@@ -36,6 +35,7 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 * Tested APIs using Postman and Swagger
 * Clear and 'pretty' design
 * Responsive
+* Visual loading spinner added
 * SPA
 * Combining 2 existing APIs (Deezer, Lyrics OVH)
 * Inserted some Lorna personality (I've seen Matrix 1) 

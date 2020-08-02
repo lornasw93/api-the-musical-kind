@@ -1,3 +1,4 @@
+
 # Presenting... API, the Musical Kind 🎵
 
 ## Overview 
@@ -12,7 +13,8 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 ## If I had more time I would have... ⏳
 *No particular order, **bold = priority***
 * **Generated charts**
-* Comparison data
+* More comparison data
+* Filtered search
 * Added authentication - Identity Server maybe
 * **Added testing (unit, Jasmine)**
 * UI / UX more focus
@@ -22,9 +24,8 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 	* Lazy loading images
 	* Compress images
 	* Added meta tags
-	* **Async methods**
 * To investigate when sometimes the lyrics count 0 when it shouldn't be 🐞
-* Obvious loading when getting data from BE i.e. spinner
+* Visual loading spinner for when getting data
 
 ## However, I have... ✅
 *No particular order*
@@ -36,7 +37,7 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 * Clear and 'pretty' design
 * Responsive
 * SPA
-* Combining 2 existing APIs (Shazam, Lyrics OVH)
+* Combining 2 existing APIs (Deezer, Lyrics OVH)
 * Inserted some Lorna personality (I've seen Matrix 1) 
   
     ![](https://github.com/lornasw93/api-the-musicial-kind/blob/master/frontend.gif)
@@ -58,7 +59,7 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 * Repo: [https://github.com/lornasw93/api-the-musical-kind.frontend](https://github.com/lornasw93/api-the-musical-kind.frontend)
 
 ### APIs Used
-* Shazam
+* Deezer
 * Lyrics OVH
 
 ## Quick Start 
@@ -70,36 +71,12 @@ Run `npm install` in the *ClientApp* directory and once finished `ng serve --o` 
 ### Backend
 #### Prerequisites 
 
-You'll need to setup an account to use the Shazam API [here](https://rapidapi.com/apidojo/api/shazam) and get an API key. My *appsettings.json* file looks like this (with the API key and irreverent bits omitted):
+You'll need to setup an account to use the Deezer API [here](https://rapidapi.com/deezerdevs/api/deezer-1) and get an API key. My *appsettings.json* file looks like this (with the API key and irreverent bits omitted):
 ```
 {
-  "ShazamApi": {
+  "RapidApi": {
     "Key": "############################################"
   } 
 }
 ```
-I'm using this particular API to do a general search. The method in my service class to use it looks like this (again, irrelevant bits omitted):
-```
-public async Task<Search> Get(string resourceUrl)
-{
-    const string baseUrl = "https://shazam.p.rapidapi.com/";
-    const string host = "shazam.p.rapidapi.com";
-    var key = _config["ShazamApi:Key"];
-
-    var baseAddress = new Uri(baseUrl);
-
-    using var httpClient = new HttpClient { BaseAddress = baseAddress };
-
-    httpClient.DefaultRequestHeaders.Add("X-RapidAPI-Host", host);
-    httpClient.DefaultRequestHeaders.Add("X-RapidAPI-Key", key);
-
-    using var response = httpClient.GetAsync("search?locale=en-GB&offset=0&limit=5&term=" + resourceUrl);
-
-    var responseData = await response.Result.Content.ReadAsStringAsync();
-    var result = JsonConvert.DeserializeObject<Search>(responseData.Result);
- 
-    return result;
-}
-```
-
-Once you've setup your account and copied over the API key, restore Nuget packages, build and run the project. 
+I then get the key using `IConfiguration` in  my service class. Once you've setup your account and copied over the API key, restore Nuget packages, build and run the project. 

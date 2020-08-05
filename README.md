@@ -1,5 +1,3 @@
-
-
 # Presenting... API, the Musical Kind 🎵
 
 ## Overview 

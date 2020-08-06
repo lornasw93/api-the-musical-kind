@@ -1,6 +1,6 @@
 # Presenting... API, the Musical Kind 🎵
 
-*Copy of the tech test requirements is included (here)[https://github.com/lornasw93/api-the-musicial-kind/blob/master/Interact%20with%20APIs.pdf]*
+*Copy of the tech test requirements is included [here](https://github.com/lornasw93/api-the-musicial-kind/blob/master/Interact%20with%20APIs.pdf)*
 
 ## Overview 
 I **really** enjoyed working on this and spent any time I could on it. It's an expandable project and for my self-development I will absolutely continue to work on it and implement the below list. 🏃‍♀️

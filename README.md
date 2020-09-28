@@ -40,9 +40,8 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 * Combining 2 existing APIs (Deezer, Lyrics OVH)
 * Inserted some Lorna personality (I've seen Matrix 1) 
   
-    ![](https://github.com/lornasw93/api-the-musicial-kind/blob/master/frontend.gif)
+![](https://github.com/lornasw93/api-the-musicial-kind/blob/master/frontend.gif)
 
- 
 ## Project Setup
 
 ### Backend

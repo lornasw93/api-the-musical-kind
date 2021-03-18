@@ -6,7 +6,7 @@
 I **really** enjoyed working on this and spent any time I could on it. It's an expandable project and for my self-development I will absolutely continue to work on it and implement the below list. 🏃‍♀️
 
 ### Approach
-For about a year, I've been learning the ways of Angular and .NET Core, and more recently I have been playing around with Node.js and thought at first that could be used for the BE project, but it would've taken longer. I immediately jumped at the chance of using both for this tech test. So, I created 2 new projects and added boilerplate bits - by this I mean installing my usual NPM packages for FE and for BE installing Swagger and creating project folders (services etc.). I focused at the start more on the backend, by using both Postman and Swagger I wanted to be at a point where I could retrieve data. Before any data though, I did some very brief research into music APIs and what the capabilities were.
+For about a year, I've been learning the ways of Angular and .NET Core, and more recently I have been playing around with Node.js and thought at first that could be used for the BE project, but it would've taken longer. I immediately jumped at the chance of using both for this tech test. So, I created 2 new projects and added boilerplate bits. I focused at the start more on the backend, by using both Postman and Swagger I wanted to be at a point where I could retrieve data. Before any data though, I did some very brief research into music APIs and what the capabilities were.
 I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD) for the BE. As the minimal requirement, I implemented code and appropriate API to retrieve the lyric count by artist and song. Once happy, I changed my focus to FE and carried on from there - switching when needed. *#ThatFullStackLife* 
 
 ***Thank you for your time and for checking this out.*** 😀
@@ -16,7 +16,6 @@ I setup Firebase hosting for FE and created an Azure Web App Service (with CI/CD
 * **Generated charts**
 * More comparison data
 * Filtered search
-* Added authentication - Identity Server maybe
 * **Added testing (unit, Jasmine)**
 * UI / UX more focus
 * **Better error handling** 

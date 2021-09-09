@@ -1,3 +1,5 @@
+Outcome of this tech test: they said that they couldn't see the code so was a straight no, although the recruiter could...
+
 # Presenting... API, the Musical Kind 🎵
 
 *Copy of the tech test requirements is included [here](https://github.com/lornasw93/api-the-musicial-kind/blob/master/Interact%20with%20APIs.pdf)*
